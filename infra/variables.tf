@@ -4,9 +4,9 @@ variable "resource_group_name" {
 }
 variable "location" {
   description = "Region Azure."
-  default     = "West Europe"
+  default     = "westeurope"
 }
 variable "acr_name" {
   description = "Unikalna nazwa Azure Container Registry."
-  default     = "myappregistryiac12345" # Zmień na UNIKALNĄ NAZWĘ
+  default     = "myappregistryiac12345dupadupadupa" # Zmień na UNIKALNĄ NAZWĘ
 }

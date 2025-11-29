@@ -15,6 +15,7 @@ service principal create
 az ad sp create-for-rbac --name "github-actions-sp" --role contributor --scope /subscriptions/$(az account show --query id -o tsv)/resourceGroups/rg-aca-iac-prod --json-auth
 ```
 azure credentials
+github->settings->secrets and variables->actions->AZURE_CREDENTIALS
 ```
 {
   "clientId": "82fee095-ed09-4a05-8828-1de8e8b06812",
